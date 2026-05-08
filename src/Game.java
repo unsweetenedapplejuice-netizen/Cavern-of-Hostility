@@ -277,7 +277,6 @@ public class Game  extends JPanel implements Runnable, KeyListener, MouseListene
             if (i2 > ("Special 2: " + player.getAction2().getName()).length()) {
                 i2 = ("Special 2: " + player.getAction2().getName()).length();
             }
-            //System.out.println("" + ii1);
 
 			break;
 
@@ -333,10 +332,8 @@ public class Game  extends JPanel implements Runnable, KeyListener, MouseListene
 
             	if (select == 1) {
                     g2d.drawImage((new ImageIcon("Selecter(C).png")).getImage(), 24, 380, 20, 20, this);
-                    //System.out.println("Selecter drawn");
                 } else if (select == 2) {
                     g2d.drawImage((new ImageIcon("Selecter(C).png")).getImage(), 474, 380, 20, 20, this);
-                    //System.out.println("Selecter drawn");
                 } else {
                     select = 1;
                 }
@@ -367,10 +364,8 @@ public class Game  extends JPanel implements Runnable, KeyListener, MouseListene
                 }
                 if (actSelect == 1) {
                     g2d.drawImage((new ImageIcon("Selecter(C).png")).getImage(), 24, 380, 20, 20, this);
-                    //System.out.println("Selecter drawn");
                 } else if (actSelect == 2) {
                     g2d.drawImage((new ImageIcon("Selecter(C).png")).getImage(), 474, 380, 20, 20, this);
-                    //System.out.println("Selecter drawn");
                 } else {
                     actSelect = 1;
                 }
@@ -467,8 +462,6 @@ public class Game  extends JPanel implements Runnable, KeyListener, MouseListene
 	
 		g2d.setFont( new Font("Broadway", Font.PLAIN, 20));
 		g2d.setColor(Color.WHITE);
-		
-		//g2d.drawString("Hello!" , x, y);
 		
 		screen(g2d);
 	

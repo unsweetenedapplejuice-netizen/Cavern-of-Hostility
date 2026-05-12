@@ -11,10 +11,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Game  extends JPanel implements Runnable, KeyListener, MouseListener, MouseMotionListener{
+public class Game extends JPanel implements Runnable, KeyListener, MouseListener, MouseMotionListener {
 
 	
-	private BufferedImage back; 
+	private BufferedImage back;
 	private int key, x, y, bx;
 	public char screen;
 	public ArrayList<Protagonist> playerOptions;
